@@ -4,4 +4,4 @@ dotnet publish src/Communie.Server/Communie.Server.csproj -c Release -r linux-x6
 
 DEL deployment\Communie.Server.pdb
 
-SCP -r .\deployment\* root@spelos.net:/var/www/communie
+SCP -r .\deployment\* user@yourserver:/var/www/communie
